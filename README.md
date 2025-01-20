@@ -1,6 +1,6 @@
 # Deep Learning: Churn Customers
 
-<p style='text-align: justify;'> A tool to classify customers who will unsubscribe from credit cards using Deep Learning: Artificial Neural Networks. By using 1 input layer, 1 hidden layer (4 neurons and relu activation), and 1 output layer (1 neuron and sigmoid activation), an accuracy of 92% is obtained. The most influential data is their age and remaining credit card balance. The smaller their age and remaining balance, the less likely they are to not churn </p>
+<p style='text-align: justify;'> A tool to classify customers who will unsubscribe from credit cards using Deep Learning: Artificial Neural Networks. By using 1 input layer, 1 hidden layer (4 neurons and relu activation), and 1 output layer (1 neuron and sigmoid activation), an accuracy of 92% is obtained. The most influential data is their age and remaining credit card balance. The smaller their age and remaining balance, the less likely they are to not churn. </p>
 
 <br>
 
