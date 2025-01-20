@@ -4,7 +4,7 @@
 
 <br>
 
-- Using datasets from [kaggle](https://www.kaggle.com/datasets/dev0914sharma/customer-clustering?select=segmentation+data.csv)
+- Using datasets from [this file](https://github.com/MaruliHTGL/Deep-Learning-Churn-Customers/blob/95dfaf8f40149846589fcc58bf6413f438a55d3c/Churn_Modelling.csv)
 - For the complete code please check [this file](https://github.com/MaruliHTGL/Clustering-and-Multiclass-Classification-Customer-Segmentation/blob/bb1a96af1d1d961cf6005e587fc5ed224ebbaca0/Clustering%20and%20Multiclass%20Classification.ipynb)
 - To test the model please visit [this link](https://churnchecker.streamlit.app/)
 - To try the following customer data that is predicted to not churn:
