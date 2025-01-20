@@ -110,4 +110,4 @@ def run_ml_app():
         st.success("Retained Customers")
         st.write("Customers will continue to use credit cards. Retain this customer!")
 
-    st.markdown('''<br><p style='text-align: justfy;'> <strong>Caution:</strong> It is better to predict <strong>“Churn Customers”</strong> but in fact they are <strong>“Retained Customers”</strong> because we can continue to provide treatment to them. Otherwise, if we predict and assume they are <strong>“Retained Customers”</strong> and ignore them even though they will stop using credit cards.</p>''', unsafe_allow_html=True)
+    st.markdown('''<br><p style='text-align: justfy;'> <strong>Caution:</strong> It is better to predict <strong>“Churn Customers”</strong> because we will still give them treatment even though they are <strong>not</strong> planning to churn, rather than predicting <strong>“Retained Customers”</strong>, then ignoring them even though they are <strong>“Churn Customers”</strong> which will cause us to <strong>lose</strong> them.</p>''', unsafe_allow_html=True)
