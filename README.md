@@ -5,7 +5,7 @@
 <br>
 
 - Using datasets from [this file](https://github.com/MaruliHTGL/Deep-Learning-Churn-Customers/blob/95dfaf8f40149846589fcc58bf6413f438a55d3c/Churn_Modelling.csv)
-- For the complete code please check [this file](https://github.com/MaruliHTGL/Deep-Learning-Churn-Customers/blob/9e6e6498b0105c64f03b674175d4eee6f1a601db/Churn%20Customers%20Using%20ANN.ipynb)
+- For the complete code please check [this file](https://github.com/MaruliHTGL/Deep-Learning-Churn-Customers/blob/b7747c2cb2aa639b7a5ee31059de9a486ffe0f61/Churn%20Customers%20Using%20ANN.ipynb)
 - To test the model please visit [this link](https://churnchecker.streamlit.app/)
 - To try the following customer data that is predicted to not churn:
     - Credit score: 750
