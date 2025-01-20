@@ -33,11 +33,11 @@ def run_ml_app():
     gender = st.radio('Gender', ['Male','Female'])
     age = st.number_input("Age", 18, 100, value=25)
     tenure = st.number_input("Tenure (Months)", 0, 100, value=5)
-    balance = st.number_input("Balance", 0, 999999, value=50000)
+    balance = st.number_input("Balance (USD)", 0, 999999, value=50000)
     num_of_products = st.number_input("Number of Products", 1, 10, value=5)
     has_cr_card = st.radio('Has Credit Card', ['Has Credit Card','No Credit Card'])
     is_active_member = st.radio('Is Active Member', ['Active Member','Inactive Member'])
-    estimated_salary = st.number_input("Estimated Salary", 1, 999999, value=50000)
+    estimated_salary = st.number_input("Estimated Salary (USD)", 1, 999999, value=50000)
 
     result = {
             'credit_score': credit_score,
@@ -63,11 +63,11 @@ def run_ml_app():
             'Gender': [gender],
             'Age': [age],
             'Tenure': [tenure],
-            'Balance': [balance],
+            'Balance (USD)': [balance],
             'Number Of Products': [num_of_products],
             'Has Credit Card': [has_cr_card],
             'Is Active Member': [is_active_member],
-            'Estimated Salary': [estimated_salary],
+            'Estimated Salary (USD)': [estimated_salary],
         }
     )
     
